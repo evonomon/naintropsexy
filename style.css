@@ -1,0 +1,58 @@
+﻿html, body {
+ margin: 15px;
+ padding: 0;
+ }
+div { column-gap : 3rem}
+body {
+ background-color: white;
+ font-family: Calibri, sans-serif;
+ font-size: 125%;
+ }
+h1 {
+ font-size: 200%;
+ color: white;
+ text-align: center;
+ }
+h2 {
+ font-size: 150%;
+ color: black;
+ text-align: center;
+
+ }
+p {
+  color: black;
+  text-indent: 50px;
+  }
+ul,li,td {
+ color: black;
+ }
+a:link {
+ color: navy;
+ text-decoration: underline;
+ }
+a:visited {
+color: black;
+}
+
+a:hover {
+ color: red;
+ text-decoration: none;
+}
+
+a:active, a:focus {
+ color: red;
+}
+footer{
+position:fixed;
+bottom:0;
+right:10px;
+height:30px;
+background: white;
+}
+
+#banniere{
+  background-image: url('ban.jpg');
+  background-repeat: repeat;
+  height: 130px;
+  color: white;
+  }
